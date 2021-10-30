@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 224, 238);
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(255, 183, 253);
+    margin-bottom: 10px;
+}
+
+.row-one {
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.row-one:hover .link-one {
+    background-color: rgb(223, 167, 222);
+}
+
+.link-one {
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.row-one:last-child {
+    margin-right: 0;
+}
+
+.link-two,
+.link-three  {
+    display: block;
+    background-color: rgb(223, 167, 222);
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.list-two {
+    display: none;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.row-one:hover .list-two {
+    display: block;
+}
+
+.list-three {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    width: 100%;
+    text-align: left;
+}
+
+.items {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.items:hover .list-three {
+    display: block;
+}
+
+.items:hover .link-two {
+    background-color: rgb(247, 207, 246);
+}
+
+.item:hover .link-three {
+    background-color: rgb(247, 207, 246);
+}
+
+.items:hover .list-three {
+    display: block;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+}
+
